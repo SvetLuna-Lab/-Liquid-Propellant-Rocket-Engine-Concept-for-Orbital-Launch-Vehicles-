@@ -1,0 +1,23 @@
+case: "engine_performance_sweep"
+use_rocketcea: true               # true – использовать rocketcea; false – внешний CEA-exe
+cea_path: "/path/to/cea_executable"   # используется при use_rocketcea = false
+database_path: "/path/to/cea_database"
+
+pc_bar: [150, 200, 250]            # давление в камере (бар)
+of: [2.6, 2.7, 2.8]                # соотношение окислитель/топливо
+ae_at: [25, 30, 35]               # коэффициент расширения Ae/At
+fuel: "LOX + RP-1"
+oxid: "LOX"
+options:
+  equilibrium: false
+  ions_enabled: false
+
+output:
+  save_plots: true
+  output_mode: "short"
+
+logging:
+  level: "INFO"
+  file: "run_log.log"
+
+timeout_sec: 60
