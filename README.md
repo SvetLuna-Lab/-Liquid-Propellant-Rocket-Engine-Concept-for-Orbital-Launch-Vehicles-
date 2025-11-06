@@ -50,13 +50,19 @@ project-root/
 - Propellants: LOX + RP-1 (1st stage) / LOX + LH₂ (upper stage)  
 - Cycle: closed (e.g., staged combustion) or suitable high-performance design
 
-## 🖼 Figures & Visuals  
+
+## 🖼 Figures & Visuals 
+Schematic diagram of the liquid-propellant rocket engine showing fuel & oxidiser tanks, turbopumps, combustion chamber, throat and bell nozzle.
+
 ![Engine Schematic](figures/engine_schematic.png)  
+
 ![Nozzle Expansion Trade-off](figures/nozzle_expansion_ratio_plot.png)  
+
 ![Material & Tech Trade-off Table](figures/tw_vs_mass_tradeoff_table.png)  
+
 ![Cooling Channel Cross-Section](figures/chamber_nozzle_wall_cooling_channel_cross_section.png)
 
-Schematic diagram of the liquid-propellant rocket engine showing fuel & oxidiser tanks, turbopumps, combustion chamber, throat and bell nozzle.
+
 
 ## 🚀 Getting Started  
 ### Prerequisites  
