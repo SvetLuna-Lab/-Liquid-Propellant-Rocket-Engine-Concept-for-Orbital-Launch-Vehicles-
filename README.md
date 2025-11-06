@@ -9,40 +9,39 @@ This repository presents a conceptual design and analysis of a liquid-propellant
 Suitable as a baseline for first or upper stage engine development with emphasis on high performance, manufacturability and system-level integration.
 
 ## 🏗 Project structure  
-project-root/
-├── docs/ # design, parameters, material and cycle choice, references
-│ ├── overview.md
-│ ├── design_parameters.md
-│ ├── material_and_cycle_choice.md
-│ ├── specification.md
-│ ├── references.md
-│ └── optimization_tw.md
-├── figures/ # engine schematics, plots, trade-off tables
-│ ├── engine_schematic.png
-│ ├── nozzle_expansion_ratio_plot.png
-│ ├── tw_vs_mass_tradeoff_table.png
-│ ├── chamber_nozzle_wall_cooling_channel_cross_section.png
-│ └── …
-├── calculations/ # scripts & notebooks for sizing and analysis
-│ ├── engine_sizing.py
-│ ├── tw_estimate.ipynb
-│ └── …
-├── notebooks/ # additional interactive analyses
-├── src/ # (optional) library modules if any
-├── .github/
-│ ├── ISSUE_TEMPLATE/
-│ ├── CONTRIBUTING.md
-│ ├── CODE_OF_CONDUCT.md
-│ └── SECURITY.md
-├── config.yaml # configuration for sweeps & runs
-├── requirements.txt # Python dependencies
-├── .gitignore
-├── CHANGELOG.md
-├── LICENSE
-└── README.md
 
-yaml
-Копировать код
+project-root/
+├── docs/                        # design, parameters, material and cycle choice, references  
+│   ├── overview.md  
+│   ├── design_parameters.md  
+│   ├── material_and_cycle_choice.md  
+│   ├── specification.md  
+│   ├── references.md  
+│   └── optimization_tw.md  
+├── figures/                     # engine schematics, plots, trade-off tables  
+│   ├── engine_schematic.png  
+│   ├── nozzle_expansion_ratio_plot.png  
+│   ├── tw_vs_mass_tradeoff_table.png  
+│   ├── chamber_nozzle_wall_cooling_channel_cross_section.png  
+│   └── …  
+├── calculations/                # scripts & notebooks for sizing and analysis  
+│   ├── engine_sizing.py  
+│   ├── tw_estimate.ipynb  
+│   └── …  
+├── notebooks/                   # additional interactive analyses  
+├── src/                         # (optional) library modules if any  
+├── .github/                     # GitHub configuration files  
+│   ├── ISSUE_TEMPLATE/  
+│   ├── CONTRIBUTING.md  
+│   ├── CODE_OF_CONDUCT.md  
+│   └── SECURITY.md  
+├── config.yaml                  # configuration for sweeps & runs  
+├── requirements.txt             # Python dependencies  
+├── .gitignore  
+├── CHANGELOG.md  
+├── LICENSE  
+└── README.md  
+
 
 ## 🎯 Key Specifications  
 - Chamber pressure, Pc: ~20 MPa  
@@ -57,6 +56,8 @@ yaml
 ![Material & Tech Trade-off Table](figures/tw_vs_mass_tradeoff_table.png)  
 ![Cooling Channel Cross-Section](figures/chamber_nozzle_wall_cooling_channel_cross_section.png)
 
+Schematic diagram of the liquid-propellant rocket engine showing fuel & oxidiser tanks, turbopumps, combustion chamber, throat and bell nozzle.
+
 ## 🚀 Getting Started  
 ### Prerequisites  
 - Python 3.7 or higher  
@@ -69,7 +70,7 @@ Edit configuration in config.yaml (set pressure, O/F, Ae/At sweeps, etc).
 Run sizing script:
 
 bash
-Копировать код
+
 python calculations/engine_sizing.py
 View generated figures in figures/, results in outputs/, logs in logs/, summaries in csv/.
 
@@ -103,7 +104,7 @@ This project is licensed under the MIT License.
 🔗 Contact & Further Resources
 Maintainer: SvetLuna­-Lab (GitHub profile)
 
-LinkedIn: www.linkedin.com/in/svetlana-romanova-418596387
+LinkedIn: https://www.linkedin.com/in/svetlana-romanova-418596387
 
 Research & reading references: see docs/references.md
 
