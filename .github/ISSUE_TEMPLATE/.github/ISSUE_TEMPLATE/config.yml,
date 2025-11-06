@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/SvetLuna-Lab/<repo>/issues/new?template=security_report.md
+    about: Please use this template for reporting security issues.
+  - name: Submit a bug report
+    url: https://github.com/SvetLuna-Lab/<repo>/issues/new?template=bug_report.md
+    about: For bugs or defects in the code.
+  - name: Propose a feature
+    url: https://github.com/SvetLuna-Lab/<repo>/issues/new?template=feature_request.md
+    about: Suggest a new feature or enhancement.
