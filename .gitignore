@@ -1,0 +1,126 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv / pipenv / poetry
+.python-version
+Pipfile.lock
+poetry.lock
+__pypackages__/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.history/
+*.tmPreferences.cache
+*.stTheme.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs, databases
+*.log
+*.sqlite3
+*.db
+*.db-journal
+
+# Documentation/build outputs
+docs/_build/
+site/
+_outputs/
+_build/
+build_docs/
+
+# Figures / outputs / results
+outputs/
+outputs/figures/
+figures/
+calculations/*.xlsx
+calculations/*.xls
+calculations/*.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.pdf
+*.png
+*.svg
+
+# Configuration files (local only)
+.env.local
+.env.*.local
+.local_settings.py
+secrets.yml
+*.key
+*.pem
+
+# Ignore generated CEA / performance results
+*.plt
+*.out
+*.lst
+*.csv
+
+# Git data
+*.orig
+
+# Ignore coverage & profiling outputs
+.prof
+.profile
+.cache/
